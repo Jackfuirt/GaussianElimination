@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int n=3; //未知数个数
+int n=4; //未知数个数
 
 int main(void)
 {
@@ -73,7 +73,7 @@ int main(void)
         printf("\n");
     } 
    //求解
-   for (int i = n-1; i >+0; i--)
+   for (int i = n-1; i >=0; i--)
    {
     count=a[i][n];
     for (int j= i+1; j<n ;j++)
